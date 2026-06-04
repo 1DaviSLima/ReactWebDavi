@@ -1,0 +1,16 @@
+.menu-a {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    color: white;
+    transition: 0.5s;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 8px;
+    background: #0d6efd;
+    font-size: 1rem;
+    margin-top: 40px;
+}
+.menu-a:hover {
+    color: rgba(203, 203, 245, 0.77);
+}

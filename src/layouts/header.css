@@ -1,0 +1,14 @@
+.header-base {
+  background-color: rgb(25, 54, 79);
+  display: flex;
+  padding: 20px;
+  justify-content: space-between;
+  color: white;
+  height: 300px;
+}
+.header-img {
+  display: flex;
+  width: 250px;
+  justify-content: center;
+}
+
