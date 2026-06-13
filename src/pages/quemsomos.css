@@ -1,3 +1,58 @@
-.Nada-por-agora {
-    justify-content: end;
+.hero {
+    min-height: 60vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+
+    padding: 60px 10%;
+}
+
+.hero-img {
+    width: 250px;
+    border-radius: 20px;
+}
+
+.hero-content {
+    max-width: 600px;
+}
+
+.hero-content h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    color: #0d6efd;
+}
+
+.hero-content p {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    color: #555;
+    margin-bottom: 30px;
+}
+
+.hero-buttons {
+    display: flex;
+    gap: 15px;
+}
+
+.hero-buttons button {
+    padding: 12px 25px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    background: #0d6efd;
+    color: white;
+    font-size: 1rem;
+}
+.hero-a {
+    text-decoration: none;
+    color: white;
+    transition: 0.5s;
+}
+.hero-a:hover {
+    color: rgba(203, 203, 245, 0.77);
+}
+.hero-buttons button:hover {
+    color: rgba(203, 203, 245, 0.77);
 }
