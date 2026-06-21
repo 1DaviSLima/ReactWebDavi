@@ -13,4 +13,3 @@ createRoot(document.getElementById('root')).render(
     </BrowserRouter>
   </StrictMode>,
 )
-console.log("O Router está aqui:", BrowserRouter);
