@@ -1,7 +1,10 @@
 import Header from "../layouts/Header";
 import Footer from "../layouts/Footer";
 import ReactImg from "../assets/ReactImg.png";
-import "./home.css"
+import "./home.css";
+import ConteudoSimples from "../components/ConteudoSimples";
+import htmlCssJs from "../assets/html_css_js_Slide.jpeg";
+
 function Home() {
   return (
     <>
@@ -17,11 +20,21 @@ function Home() {
           </p>
 
           <div className="hero-buttons">
-            <button><a href="https://github.com/1DaviSLima" className="hero-a">Ver Projetos</a></button>
-            <button><a href="#" className="hero-a">Contato</a></button>
+            <button>
+              <a href="https://github.com/1DaviSLima" className="hero-a">
+                Ver Projetos
+              </a>
+            </button>
+            <button>
+              <a href="#" className="hero-a">
+                Contato
+              </a>
+            </button>
           </div>
         </div>
       </section>
+      <hr />
+      <ConteudoSimples/>
     </>
   );
 }
