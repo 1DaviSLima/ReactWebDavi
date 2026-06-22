@@ -3,6 +3,7 @@ import Footer from "../layouts/Footer";
 import ReactImg from "../assets/ReactImg.png";
 import Carrosel from "../components/Carrosel/Carrosel"
 import "./quemsomos.css";
+
 function QuemSomos() {
   return (
     <>
