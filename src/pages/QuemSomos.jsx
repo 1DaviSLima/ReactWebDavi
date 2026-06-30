@@ -1,39 +1,62 @@
 import Header from "../layouts/Header";
 import Footer from "../layouts/Footer";
 import ReactImg from "../assets/ReactImg.png";
-import Carrosel from "../components/Carrosel/Carrosel"
+import html_css_js from "../assets/html_css_js_Slide.jpeg";
+import biomeImg from "../assets/biomeImg.png";
+import leftHookImg from "../assets/lefthookImg.jpg";
+import Carrosel from "../components/Carrosel/Carrosel";
 import "./quemsomos.css";
 
 function QuemSomos() {
   return (
     <>
-      <section className="hero">
-        <img src={ReactImg} alt="React" className="hero-img" />
+        <Carrosel />
 
-        <div className="hero-content">
-          <h1>Desenvolvedor Front-End</h1>
+<section className="quem-somos">
 
-          <p>
-            Crio aplicações modernas utilizando React, JavaScript e Bootstrap
-            com foco em desempenho e experiência do usuário.
-          </p>
+    <h2 className="titulo">Conheça mais sobre o Projeto</h2>
 
-          <div className="hero-buttons">
-            <button>
-              <a href="https://github.com/1DaviSLima" className="hero-a">
-                Ver Projetos
-              </a>
-            </button>
-            <button>
-              <a href="#" className="hero-a">
-                Contato
-              </a>
-            </button>
-          </div>
+    <div className="cards-container">
+
+        <div className="card">
+            <img src={ReactImg} className="card-img-top" alt="ReactJS" />
+            <div className="card-body">
+                <p className="card-text">
+                    Lorem ipsum dolor sit amet.
+                </p>
+            </div>
         </div>
-      </section>
-      <hr />
-        <Carrosel/>
+
+        <div className="card">
+            <img src={html_css_js} className="card-img-top" alt="HTML CSS JS" />
+            <div className="card-body">
+                <p className="card-text">
+                    Lorem ipsum dolor sit amet.
+                </p>
+            </div>
+        </div>
+
+        <div className="card">
+            <img src={biomeImg} className="card-img-top" alt="Biome" />
+            <div className="card-body">
+                <p className="card-text">
+                    Lorem ipsum dolor sit amet.
+                </p>
+            </div>
+        </div>
+
+        <div className="card">
+            <img src={leftHookImg} className="card-img-top" alt="Lefthook" />
+            <div className="card-body">
+                <p className="card-text">
+                    Lorem ipsum dolor sit amet.
+                </p>
+            </div>
+        </div>
+
+    </div>
+
+</section>
     </>
   );
 }

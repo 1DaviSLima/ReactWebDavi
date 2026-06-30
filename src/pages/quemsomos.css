@@ -1,58 +1,60 @@
-.hero {
-    min-height: 60vh;
+.quem-somos{
+    width: 90%;
+    max-width: 1200px;
+    margin: 60px auto;
+}
 
+.titulo{
+    text-align: center;
+    margin-bottom: 45px;
+    color: rgb(25,54,79);
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.cards-container{
     display: flex;
-    align-items: center;
     justify-content: center;
-    gap: 60px;
-
-    padding: 60px 10%;
+    align-items: stretch;
+    gap: 35px;
+    flex-wrap: wrap;
 }
-
-.hero-img {
-    width: 250px;
-    border-radius: 20px;
-}
-
-.hero-content {
-    max-width: 600px;
-}
-
-.hero-content h1 {
-    font-size: 3rem;
-    margin-bottom: 20px;
-    color: #0d6efd;
-}
-
-.hero-content p {
-    font-size: 1.1rem;
-    line-height: 1.8;
-    color: #555;
-    margin-bottom: 30px;
-}
-
-.hero-buttons {
-    display: flex;
-    gap: 15px;
-}
-
-.hero-buttons button {
-    padding: 12px 25px;
+.card{
+    width: 280px;
     border: none;
-    border-radius: 8px;
-    cursor: pointer;
-    background: #0d6efd;
-    color: white;
-    font-size: 1rem;
+    border-radius: 18px;
+    overflow: hidden;
+    box-shadow: 0 8px 20px rgba(0,0,0,.15);
+    transition: .3s;
 }
-.hero-a {
-    text-decoration: none;
-    color: white;
-    transition: 0.5s;
+
+.card:hover{
+    transform: translateY(-8px);
+    box-shadow: 0 15px 30px rgba(0,0,0,.25);
 }
-.hero-a:hover {
-    color: rgba(203, 203, 245, 0.77);
+
+.card-img-top{
+    height: 190px;
+    object-fit: cover;
 }
-.hero-buttons button:hover {
-    color: rgba(203, 203, 245, 0.77);
+
+.card-body{
+    padding: 20px;
+}
+
+.card-text{
+    text-align: center;
+    color: #555;
+    line-height: 1.6;
+}
+@media(max-width:900px){
+    .cards-container{
+        gap:20px;
+    }
+}
+
+@media(max-width:600px){
+    .card{
+        width:100%;
+    }
 }
