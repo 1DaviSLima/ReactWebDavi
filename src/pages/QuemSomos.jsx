@@ -18,6 +18,7 @@ function QuemSomos() {
 
     <div className="cards-container">
 
+
         <div className="card">
             <img src={ReactImg} className="card-img-top" alt="ReactJS" />
             <div className="card-body">
