@@ -1,12 +1,15 @@
 .item_img {
-    width: 80%;
-    height: 450px;
+    width: auto 60%;
+    height: 350px;
     object-fit: cover;
     margin: 50px auto;
+    padding: 20px;
     box-sizing: border-box;
+
 }
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
     filter: invert(1) drop-shadow(0 0 3px black);
+    margin: auto 40px;
 }
 
